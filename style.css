@@ -1,0 +1,371 @@
+*
+{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+.col-lg-1
+{
+	width:8.33%;
+	padding:0 15px;
+}
+
+.col-lg-2
+{
+	width:16.66%;
+	padding:0 15px;
+}
+
+.col-lg-3
+{
+	width:25%;
+	padding:0 15px;
+}
+
+.col-lg-4
+{
+	width:33.33%;
+	padding:0 15px;
+}
+
+.col-lg-5
+{
+	width:41.66%;
+	padding:0 15px;
+}
+
+.col-lg-6
+{
+	width:50%;
+	padding:0 15px;
+}
+
+.col-lg-7
+{
+	width:58.33%;
+	padding:0 15px;
+}
+
+.col-lg-8
+{
+	width:66.66%;
+	padding:0 15px;
+}
+
+.col-lg-9
+{
+	width:75%;
+	padding:0 15px;
+}
+
+.col-lg-10
+{
+	width:83.33%;
+	padding:0 15px;
+}
+
+.col-lg-11
+{
+	width:91.66%;
+	padding:0 15px;
+}
+
+
+
+.col-lg-12
+{
+	width:100%;
+	padding:0 15px;
+}
+
+
+.container
+{
+	width:1170px;
+	margin:0 auto;
+	
+}
+
+.hender-menu
+{
+	background-color:black;
+	height:50px;
+}
+
+.logo
+{
+	background-color:red;
+	height:20px;
+	margin-top:15px;
+}
+
+.menu-bar
+{
+	background-color:red;
+	height:20px;
+	margin-top:15px;
+}
+
+.row
+{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.banner-section
+{
+	background-color:black;
+	height:250px;
+	margin-top:10px;
+}
+
+.banner-content
+{
+	background-color:red;
+	height:200px;
+	margin-top:15px;
+}
+
+
+.client-section
+{
+	height:100px;
+	margin-top:50px;
+}
+
+
+.client-logo
+{
+	background-color:red;
+	height:60px;
+	margin-top:15px;
+	
+}
+
+
+.about-section
+{
+	background-color:black;
+	margin-top:20px;
+}
+
+.about-content
+{
+	background-color:red;
+	height:300px;
+	margin-top:15px;
+}
+
+.about-list-box
+{
+	background-color:red;
+	height:170px;
+	margin-bottom:20px;
+	margin-top:15px;
+}
+
+.client
+{
+background-color:#fff;
+	margin-top:20px;
+	height:100px;
+}
+
+
+.about-client
+{
+	background-color:red;
+	height:50px;
+	margin-top:15px;
+}
+
+.details
+{
+background-color:#fff;
+	height:100px;
+}
+
+
+.about-details
+{
+	background-color:red;
+	height:150px;
+	margin-top:15px;
+}
+
+.Service
+{
+background-color:black;
+	height:480px;
+}
+
+
+.about-service
+{
+	background-color:red;
+	height:100px;
+	margin-top:15px;
+}
+
+	
+	
+	.port
+{
+background-color:black;
+	height:1050px;
+}
+
+
+.port-service
+{
+	background-color:red;
+	height:100px;
+	margin-top:15px;
+}
+
+.port-ser{
+	
+	background-color:red;
+	height:250px;
+	margin-top:15px;
+	
+}
+
+.test
+{
+background-color:#fff;
+	height:480px;
+}
+
+
+.test-service
+{
+	background-color:red;
+	height:100px;
+	margin-top:15px;
+}
+	
+	.pricing
+{
+background-color:black;
+	height:480px;
+}
+
+.pri-seric
+{
+	background-color:red;
+	height:50px;
+	margin-top:15px;
+}
+	
+	
+
+.pri-ser
+{
+	background-color:red;
+	height:350px;
+	margin-top:15px;
+	
+}
+
+.fre
+{
+background-color:black;
+	height:480px;
+}
+
+
+.fre-servic
+{
+	background-color:red;
+	height:50px;
+	margin-top:15px;
+}
+
+.fre-service
+{
+	background-color:red;
+	height:380px;
+	margin-top:15px;
+}
+
+
+
+.team
+{
+background-color:#fff;
+	height:360px;
+}
+
+
+.team-servic
+{
+	background-color:red;
+	height:50px;
+	margin-top:15px;
+}
+.team-service
+{
+	background-color:red;
+	height:260px;
+	margin-top:15px;
+}
+
+.contact
+{
+background-color:black;
+	height:480px;
+}
+
+
+.con
+{
+	background-color:red;
+	height:50px;
+	margin-top:15px;
+}
+
+.cont{
+background-color:red;
+	height:100px;
+	margin-top:15px;	
+}
+
+.contt{
+background-color:red;
+	height:50px;
+	margin-top:15px;	
+}
+
+.conttc{
+background-color:red;
+	height:250px;
+	margin-top:15px;	
+}
+
+.contact-info{
+	background-color:#fff;
+	height:280px;
+}
+
+.con-info{
+background-color:red;
+	height:250px;
+	margin-top:15px;
+
+}
+	
+	.copyright
+	{
+		background-color:black;
+		height:100px;
+	}
+	
+	
+	.copy-right{
+		background-color:red;
+		height:50px;
+	margin-top:15px;
+	}
+	
