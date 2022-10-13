@@ -4,6 +4,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Layouts Website</title>
 	 <link rel="stylesheet" href="style.css">
+	 <link rel="stylesheet" href="iconfont/icofont.min.css">
 	 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
@@ -13,7 +14,7 @@
 
 <header class="hender-menu">
     <div class="container">
-	 <div class="row">
+	 <div class="row align-items-center">
 	 
   <div class="col-lg-3">
       <div class="logo">
@@ -23,22 +24,42 @@
 	  </div>
 	  </div>
 	  
-<div class="col-lg-">
+<div class="col-lg-9">
       <div class="menu-bar">
-	    <nav class="navbar">
-		    <a href="#">Home</a>
-			 <a href="#">About</a>
-			  <a href="#">Services</a>
-			   <a href="#">Portfolio</a>
-			    <a href="#">Team</a>
-				 <a href="#">Drop Down</a>
-				  <a href="#">Contact</a>
-				  <a class="button" href="#">Get Started</a>
-					</nav>
+		<ul  class="navbar">
+		    <li><a href="index.html">Home</a></li>
+			<li> <a href="#" class="nav-list">About</a></li>
+			  <li><a href="#" class="nav-list">Services</a></li>
+			   <li><a href="#" class="nav-list">Portfolio</a></li>
+			    <li><a href="#" class="nav-list">Team</a></li>
+				<li><a href="#" class="nav-list">Blog</a></li>
+				
+				 <li class="dropdown"> <a href="#" class="nav-list">Drop Down<i class="icofont-curved-down"></i></a>
+				   <ul class="nav-dropdown">
+				      <li><a href="#">Drop Down 1</a></li>
+					  <li class="dropdown2"><a href="#">Deep Drop Down<i class="icofont-curved-right"></i></a>
+					  
+					     <ul class="nav-drop">
+						    <li><a href="#">Drop Down 1</a></li>
+							 <li><a href="#">Drop Down 2</a></li>
+							  <li><a href="#">Drop Down 3</a></li>
+							   <li><a href="#">Drop Down 4</a></li>
+							    <li><a href="#">Drop Down 5</a></li>
+					  </ul>
+					  </li>
+					  <li><a href="#">Drop Down 3</a></li>
+					  <li><a href="#">Drop Down 4</a></li>
+					  <li><a href="#">Drop Down 5</a></li>
+				 
+				 </ul>
+				 </li>
+				  <li><a href="#" class="nav-list">Contact</a></li>
 				  
-	</div>   
-  </div>		
-		
+				  
+				  <a href="#" class="navbtns">Get Started</a>
+				  
+					</ul>
+				  
 </div>
 </div>
 </header>
@@ -47,8 +68,12 @@
 <section class="banner-section">
      <div class="container">
 	 
-	     <div class="col-lg-12">
+	     <div class="col-lg-6">
 		     <div class="banner-content">
+			 <h1>Bettter digital experience with Presento</h1>
+			 <p>We are team of talented designers making websites with Bootstrap</p>
+			 
+			 <a class="btns" href="#">Get Started</a>
 		 </div>
 		 </div>
     </div>
@@ -60,31 +85,37 @@
 	   
 	   <div class="col-lg-2">
 	        <div class="client-logo">
+			   <img src="client-1.png">
 			</div>
 	   </div>
 	   
 	   <div class="col-lg-2">
 	        <div class="client-logo">
+			<img src="client-2.png">
 			</div>
 	   </div>
 	   
 	   <div class="col-lg-2">
 	        <div class="client-logo">
+			<img src="client-3.png">
 			</div>
 	   </div>
 	   
 	   <div class="col-lg-2">
 	        <div class="client-logo">
+			<img src="client-4.png">
 			</div>
 	   </div>
 	   
 	   <div class="col-lg-2">
 	        <div class="client-logo">
+			<img src="client-5.png">
 			</div>
 	   </div>
 	   
 	   <div class="col-lg-2">
 	        <div class="client-logo">
+			<img src="client-6.png">
 			</div>
 	   </div>
 	   
@@ -95,12 +126,15 @@
 </section>	   
 
 
-<section class="about-section">
+<section class="about-section sect-sharp">
     <div class="container">
 	   <div class="row">
 	   
 	      <div class="col-lg-5">
 	        <div class="about-content">
+			<h1>Voluptatem dignissimos provident quasi</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit<p>
+<a class="but" href="#">ABOUT US<i class="icofont-curved-right"></i></a>
 		    </div>
 		   </div>
 		     
@@ -110,21 +144,35 @@
 		
 		<div class="col-lg-6">
 		<div class="about-list-box">
+		<i class="icofont-newspaper"></i>
+		<h1>Corporis voluptates sit</h1>
+		<p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
 		</div>
 		</div>
 		
 		<div class="col-lg-6">
 		<div class="about-list-box">
+		<i class="icofont-cube"></i>
+		<h1>Ullamco laboris nisi</h1>
+		<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+
+</p>
 		</div>
 		</div>
 		
 		<div class="col-lg-6">
 		<div class="about-list-box">
+		<i class="icofont-image"></i>
+		<h1>Labore consequatur</h1>
+		<p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
 		</div>
 		</div>
 		
 		<div class="col-lg-6">
 		<div class="about-list-box">
+		<i class="icofont-shield"></i>
+		<h1>Beatae veritatis</h1>
+		<p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
 		</div>
 		</div>		
 			  
