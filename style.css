@@ -408,14 +408,19 @@ background-color:#fff;
 	cursor:pointer;
 }
 
-.about-details i 
+.about-details i
 {
 	position:absolute;
 	font-size:40px;
 	padding-left:12px;
 	padding-top:15px;
-	cursor:pointer;
 }
+
+.about-details i:hover
+{
+	color:red;
+}
+
 
 .about-details p:hover{
 	color:red;
@@ -436,15 +441,26 @@ font-size:12px;
 font-family:'Poppins', sans-serif;
 font-style:italic;
 padding-bottom:20px;
+color:gray;
 
 }
 
 .about-details-content p
 { 
 font-size:15px;
+position:relative;
 font-family:'Poppins', sans-serif;
 padding-bottom:20px;
+color:gray;
+padding-left:28px;
 
+}
+
+.about-details-content i 
+{
+	font-size:25px;
+	color:red;
+	position:absolute;
 }
 
 .about-details-content img
