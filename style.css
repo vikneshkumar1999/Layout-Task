@@ -1362,7 +1362,7 @@ margin-top:10px;
 
 .con-info{
 	height:250px;
-	margin-top:15px;
+	margin-top:50px;
 
 }
 
@@ -1381,11 +1381,111 @@ margin-top:10px;
 .con-info p 
 {
 	font-size:15px;
-	font-family:'open sans',sans-serif;
+	font-family: "Open Sans", sans-serif;
 	line-height:25px;
 	color:#fff;
 }
 
+.con-links 
+{
+	height:250px;
+	margin-top:50px;
+}
+
+.con-line
+{
+	background-color: #e03a3c;
+    border-bottom: 2px solid #e03a3c;
+    margin-right: 135px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.con-links
+{
+	color:#fff;
+	font-size:18px;
+	font-family: "Open Sans", sans-serif;
+}
+
+.con-links a 
+{
+	text-decoration:none;
+	color:gray;
+	font-size:16px;
+	line-height:2;
+}
+
+.con-links li 
+{
+	list-style:none;
+}
+
+.con-links a:hover
+{
+	color:#fff;
+}
+
+.our-service
+{
+	color:#fff;
+	font-size:18px;
+	font-family: "Open Sans", sans-serif;
+	height:250px;
+	margin-top:50px;
+}
+
+.our-service a 
+{
+	text-decoration:none;
+	color:gray;
+	font-size:16px;
+	line-height:2;
+}
+
+.our-service li 
+{
+	list-style:none;
+}
+
+.our-service a:hover
+{
+	color:#fff;
+}
+
+.link-line 
+{
+background-color: #e03a3c;
+    border-bottom: 2px solid #e03a3c;
+    margin-right: 235px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.con-join 
+{
+	color:#fff;
+	font-size:18px;
+	font-family: "Open Sans", sans-serif;
+	height:250px;
+	margin-top:50px;
+}
+
+.join-line
+{
+	background-color: #e03a3c;
+    border-bottom: 2px solid #e03a3c;
+    margin-right: 335px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+	
+.con-join p 
+{
+	color:#fff;
+	font-size:15px;
+	font-family: "Open Sans", sans-serif;
+}
 
 	
 .copyright
@@ -1393,6 +1493,7 @@ margin-top:10px;
 		background-color:black;
 		height:100px;
 	}
+	
 	
 	
 .copy-right
@@ -1425,7 +1526,27 @@ margin-top:10px;
 	  font-family: "Open Sans", sans-serif;
 }
 
+
+.logo-social a
+{
+	text-decoration:none;
+	color:#fff;
+	background-color:black;
+	border-radius:5px;
+	padding:10px 10px 10px 10px;
+}
+
+.logo-social a:hover
+{
+	background-color:red;
+}
 	
+
+.logo-social 
+{
+	direction:rtl;
+}
+       	
 	
 	
 	.logo-detail
