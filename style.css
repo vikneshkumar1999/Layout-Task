@@ -401,38 +401,44 @@ background-color:#fff;
 
 .about-details
 {
-	border:1px solid #000;
-	height:100px;
-	margin-top:15px;
+	border: 1px solid #b9b9b9;
+    padding: 15px;
+    transition: 0.3s;
+    color: #111111;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
 
-.about-details p {
-	
-	font-family:'Poppins', sans-serif;
-	font-size:20px;
-	position:relative;
-	padding-left:60px;
-	padding-top:10px;
-	cursor:pointer;
-}
-
-.about-details i
+.about p 
 {
-	position:absolute;
-	font-size:40px;
-	padding-left:12px;
-	padding-top:15px;
+	font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+	font-family:'poppins' ,sans-serif;
 }
 
-.about-details i:hover
+.about-details i 
 {
-	color:#e03a3c;
+	padding-right: 15px;
+    font-size: 48px;
+}
+
+.about-details:hover
+{
+	color: #e03a3c;
+}
+
+.about-details.active 
+{
+	background-color: #e03a3c;
+	color:#fff;
+	border-color: #e03a3c;
 }
 
 
-.about-details p:hover{
-	color:#e03a3c;
-}
 
 .about-details-content h1
 {
@@ -815,7 +821,7 @@ background-color:#fff;
 
 .test-content p 
 {
-	font-size: 18px;
+	font-size: 16px;
     font-family: "Open Sans", sans-serif;
     font-style: italic;
     padding-top: 65px;
@@ -1297,26 +1303,36 @@ margin-top:10px;
 
 .text-subject
 {
-	padding:10px 15px;
-	font-size:15px;
+	display: block;
+    width: 488px;
+    padding: 10px;
+    padding-left: 10px;
+    font-size: 15px;
 }
 
 
 .subject
 {
-	padding:20px;
+	padding: 35px;
+    padding-top: 5px;
+
 }
 
 .text-message
 {
-	padding:10px 15px;
-	font-size:15px;
+	display: block;
+    width: 488px;
+    padding: 10px;
+    padding-left: 10px;
+    font-size: 15px;
 }
 
 
 .message
 {
-	padding:20px;
+		padding: 35px;
+    padding-top: 5px;
+
 }
 	
 .send
@@ -1336,16 +1352,10 @@ margin-top:10px;
     padding-right: 10px;
     text-decoration: none;
 }
-  
-
-
-
-
-
 
 
 .contact-info{
-	background-color:#2b2b2b;;
+	background-color:#2b2b2b;
 	height:280px;
 	margin-top:100px;
 }
@@ -1487,6 +1497,33 @@ background-color: #e03a3c;
 	font-family: "Open Sans", sans-serif;
 }
 
+
+.email
+{
+	margin-top: 30px;
+    background: #fff;
+    padding: 5px 10px;
+    position: relative;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.submit
+{
+	position: absolute;
+    top: 0;
+    right: -1px;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    background: #e03a3c;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
 	
 .copyright
 	{
@@ -1531,7 +1568,7 @@ background-color: #e03a3c;
 {
 	text-decoration:none;
 	color:#fff;
-	background-color:black;
+	background-color:#2b2b2b;;
 	border-radius:5px;
 	padding:10px 10px 10px 10px;
 }
