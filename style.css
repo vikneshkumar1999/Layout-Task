@@ -1,91 +1,28 @@
 *
 {
-	margin:0px;
-	padding:0px;
+	margin:0;
+	padding:0;
 	box-sizing:border-box;
-}
-
-.col-lg-1
-{
-	width:8.33%;
-	padding:0 15px;
-}
-
-.col-lg-2
-{
-	width:16.66%;
-	padding:0 15px;
-}
-
-.col-lg-3
-{
-	width:25%;
-	padding:0 15px;
-}
-
-.col-lg-4
-{
-	width:33.33%;
-	padding:0 15px;
-}
-
-.col-lg-5
-{
-	width:41.66%;
-	padding:0 15px;
-}
-
-.col-lg-6
-{
-	width:50%;
-	padding:0 15px;
-}
-
-.col-lg-7
-{
-	width:58.33%;
-	padding:0 15px;
-}
-
-.col-lg-8
-{
-	width:66.66%;
-	padding:0 15px;
-}
-
-.col-lg-9
-{
-	width:75%;
-	padding:0 15px;
-}
-
-.col-lg-10
-{
-	width:83.33%;
-	padding:0 15px;
-}
-
-.col-lg-11
-{
-	width:91.66%;
-	padding:0 15px;
-}
-
-
-
-.col-lg-12
-{
-	width:100%;
-	padding:0 15px;
 }
 
 
 .container
 {
-	width:1170px;
-	margin:0 auto;
+	width:100%;
+	padding:0 15px;
 	
 }
+
+.row > *
+{
+	width:100%;
+	padding:0 15px;
+}
+
+.d-none{
+	display:none;
+}
+
 
 .align-items-center
 {
@@ -296,7 +233,7 @@ padding-left:12px;
 	font-family: 'Poppins', sans-serif;
 	color:#fff;
 	padding-left:10px;
-	padding-left:8px;
+	
 }
 
 .about-list-box h1
@@ -394,7 +331,6 @@ background-color:#fff;
 
 .details
 {
-background-color:#fff;
 	height:650px;
 }
 
@@ -412,9 +348,9 @@ background-color:#fff;
     cursor: pointer;
 }
 
-.about p 
+.about-details p
 {
-	font-size: 20px;
+	font-size: 18px;
     font-weight: 600;
     margin: 0;
 	font-family:'poppins' ,sans-serif;
@@ -671,7 +607,6 @@ background-color:#e03a3c;
 
 .port-ser
 {
-	background-color:red;
 	height:250px;
 	margin-top:50px;
 	
@@ -1146,7 +1081,7 @@ margin-top:80px;
 .social-logo 
 {
 	position:absolute;
-	left:38%;
+	left:36%;
 	bottom:25px;
 	transform:translateX(-50px);
 	color:#fff;
@@ -1298,7 +1233,7 @@ margin-top:10px;
 
 .name
 {
-	padding:20px;
+margin-top:28px;	
 }
 
 .text-subject
@@ -1313,8 +1248,8 @@ margin-top:10px;
 
 .subject
 {
-	padding: 35px;
     padding-top: 5px;
+	margin:10px 12px;
 
 }
 
@@ -1322,7 +1257,7 @@ margin-top:10px;
 {
 	display: block;
     width: 488px;
-    padding: 10px;
+    padding-top: 10px;
     padding-left: 10px;
     font-size: 15px;
 }
@@ -1330,8 +1265,9 @@ margin-top:10px;
 
 .message
 {
-		padding: 35px;
-    padding-top: 5px;
+		
+    padding-top:5px;
+	margin:10px 12px;
 
 }
 	
@@ -1348,8 +1284,8 @@ margin-top:10px;
     padding-bottom: 8px;
     color: #fff;
     font-family: 'Poppins', sans-serif;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     text-decoration: none;
 }
 
@@ -1500,12 +1436,7 @@ background-color: #e03a3c;
 
 .form
 {
-	margin-top: 30px;
-    background: #fff;
-    padding: 5px 10px;
-    position: relative;
-    border-radius: 4px;
-    text-align: left;
+	
 }
 
 
