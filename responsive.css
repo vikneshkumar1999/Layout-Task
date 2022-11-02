@@ -5,35 +5,19 @@
 		display:none !important;
 	}
 	
-.row 
+.d-xs-block
 {
-  margin:0;
+	display:block !important;
 }
 
-.about-client i 
+.about-client 
 {
-	left:130px;
+	margin-bottom:50px;
 }
 
-.about-client
+.logo-social
 {
-	margin-top:40px;
-}
-
-.about-details 
-{
-	margin-bottom:20px;
-}
-
-.details
-{
-	margin-top:480px;
-}
-
-.Service 
-{
-  margin-top:780px;
-  height:1040px;
+	margin:28px 50px;
 }
 
 .col-1
@@ -111,6 +95,95 @@
 }
 
 }
+
+@media (min-width:768px) {
+	
+	.container
+{
+	width:767px;
+	
+}
+	
+
+
+.about-client
+{
+	margin-bottom:50px;
+}
+
+	.col-md-1
+{
+	width:8.33%;
+	padding:0 15px;
+}
+
+.col-md-2
+{
+	width:16.66%;
+	padding:0 15px;
+}
+
+.col-md-3
+{
+	width:25%;
+	padding:0 15px;
+}
+
+.col-md-4
+{
+	width:33.33%;
+	padding:0 15px;
+}
+
+.col-md-5
+{
+	width:41.66%;
+	padding:0 15px;
+}
+
+.col-md-6
+{
+	width:50%;
+	padding:0 15px;
+}
+
+.col-md-7
+{
+	width:58.33%;
+	padding:0 15px;
+}
+
+.col-md-8
+{
+	width:66.66%;
+	padding:0 15px;
+}
+
+.col-md-9
+{
+	width:75%;
+	padding:0 15px;
+}
+
+.col-md-10
+{
+	width:83.33%;
+	padding:0 15px;
+}
+
+.col-md-11
+{
+	width:91.66%;
+	padding:0 15px;
+}
+	
+}
+
+
+
+
+
+
 
 @media (min-width:1200px) {
 	
