@@ -38,6 +38,10 @@
 	align-items:flex-end;
 }
 
+.justify-content-center{
+	justify-content:center;
+}
+
 	
 
 .hender-menu
@@ -229,7 +233,7 @@ padding-left:12px;
 
 .about-list-box
 {
-	height:125px;;
+	height:155px;;
 	font-size:13px;
 	font-family: 'Poppins', sans-serif;
 	color:#fff;
@@ -1067,7 +1071,7 @@ margin-top:80px;
 .team-service
 {
 	background-color:#fff;
-	height:auto;
+	height:340px;
 	margin-top:60px;
 	border-radius:5px;
 }
@@ -1308,7 +1312,7 @@ margin-top:10px;
 .con-links 
 {
 	height:auto;
-	margin-top:25px;
+	margin-top:50px;
 }
 
 .con-line
@@ -1351,7 +1355,7 @@ margin-top:10px;
 	font-size:18px;
 	font-family: "Open Sans", sans-serif;
 	height:250px;
-	margin-top:25px;
+	margin-top:50px;
 }
 
 .our-service a 
@@ -1387,7 +1391,7 @@ background-color: #e03a3c;
 	font-size:18px;
 	font-family: "Open Sans", sans-serif;
 	height:auto;
-	margin-top:20px;
+	margin-top:50px;
 }
 
 .join-line
