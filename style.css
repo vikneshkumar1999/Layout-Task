@@ -83,7 +83,7 @@
 	color:#fff;
 	font-family: 'Poppins', sans-serif;
 	font-size:28px;
-	width:500px;
+	width:100%;
 	padding-top:190px;
 	
 }
@@ -1071,7 +1071,6 @@ margin-top:80px;
 .team-service
 {
 	background-color:#fff;
-	height:340px;
 	margin-top:60px;
 	border-radius:5px;
 }
@@ -1277,7 +1276,7 @@ margin-top:10px;
 {
         box-shadow: 0 0 30px rgb(214 215 216 / 60%);
         height:auto;
-		margin-top:50px;
+		margin-top:55px;
 }
 
 
@@ -1501,7 +1500,7 @@ background-color: #e03a3c;
 
 .logo-social 
 {
-	margin :30px 120px;
+	margin :30px -105px;
 	}
        	
 	
