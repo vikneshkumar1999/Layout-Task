@@ -20,15 +20,26 @@
 	margin:28px 50px;
 }
 
-.team-service
-{
-	height:390px;
+
+
+.port-line{
+background-color: hsl(359deg 73% 55%);
+    border-bottom: 3px solid hsl(359deg 73% 55%);
+    margin-right: 0px;
+    margin-left: 130px;
+    margin-top: 8px;
+    margin-bottom: 20px;
 }
 
 .about-service p
 {
 	padding-top:10px;
 	font-size:12px;
+}
+
+.fre-service
+{
+	padding:0px 25px 0px 15px;
 }
 
 .col-1
@@ -117,9 +128,21 @@
 	
 }
 
-.t-s 
+.d-xs-none
+	{
+		display:none !important;
+	}
+	
+
+.port-line
 {
-	height:430px;
+background-color: hsl(359deg 73% 55%);
+    border-bottom: 2px solid hsl(359deg 73% 55%);
+    margin-right: 0px;
+    margin-left: 330px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+	width:50px;
 }
 	
 

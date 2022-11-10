@@ -6,12 +6,13 @@
 }
 
 
-.container
-{
+.container, .container-fluid{
+	
 	width:100%;
 	padding:0 15px;
 	
 }
+
 
 .row > *
 {
@@ -114,6 +115,7 @@
 	text-decoration:none;
 	color:#fff;
 	font-size:15px;
+	display:inline-block;
 }
 
 .btns:hover
@@ -217,6 +219,7 @@ border:2px solid #e03a3c;
 	color:#fff;
 	font-family: 'Poppins', sans-serif;
 		text-decoration:none;
+		display:inline-block;
 }
 
 .but:hover
@@ -285,7 +288,6 @@ padding-left:12px;
 {
 background-color:#fff;
 	margin-top:100px;
-	margin-bottom:100px;
 	height:auto;
 }
 
@@ -488,16 +490,6 @@ padding-left:28px;
 	
 	
 }
-
-.ser-line 
-{
-background-color:#e03a3c;
-	border-bottom:2px solid #e03a3c;
-	margin-right:530px;
-	margin-left:526px;
-	margin-top:8px;
-	margin-bottom:20px;
-}
 	
 
 .about-service
@@ -546,6 +538,17 @@ background-color:#e03a3c;
 	margin-top:100px;
 }
 
+.port-line{
+	
+background-color: hsl(359deg 73% 55%);
+    border-bottom: 2px solid hsl(359deg 73% 55%);
+    margin-right: 530px;
+    margin-left: 310px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+	width:50px;
+}
+
 
 .port-service
 {
@@ -555,16 +558,6 @@ background-color:#e03a3c;
 	height:auto;
 	position:relative;
 	margin-top:15px;
-}
-
-.port-line
-{
-	background-color:#e03a3c;
-	border-bottom:2px solid #e03a3c;
-	margin-right:530px;
-	margin-left:526px;
-	margin-top:8px;
-	margin-bottom:20px;
 }
 
 .port-service p 
@@ -838,15 +831,6 @@ background-color:#fff;
 	color:#fff;
 }
 
-.port-line
-{
-	background-color:#e03a3c;
-	border-bottom:2px solid #e03a3c;
-	margin-right:530px;
-	margin-left:526px;
-	margin-top:8px;
-	margin-bottom:20px;
-}
 
 .pri-servic p 
 {
@@ -923,9 +907,7 @@ background-color:#fff;
     border: 2px solid rgb(255 255 255 / 30%);
 	font-family: "Open Sans", sans-serif;
 	font-size:18px;
-	border-radius: 5px;
-
-    
+	display:inline-block;   
 }
 
 .btns-buy:hover
@@ -951,15 +933,7 @@ margin-top:80px;
 	height:480px;
 }
 
-.port-line
-{
-	background-color:#e03a3c;
-	border-bottom:2px solid #e03a3c;
-	margin-right:305px;
-	margin-left:526px;
-	margin-top:8px;
-	margin-bottom:20px;
-}
+
 
 
 .fre-servic
@@ -1051,15 +1025,7 @@ margin-top:80px;
 	color:#fff;
 }
 
-.port-line
-{
-	background-color:#e03a3c;
-	border-bottom:2px solid #e03a3c;
-	margin-right:530px;
-	margin-left:526px;
-	margin-top:8px;
-	margin-bottom:20px;
-}
+
 
 .team-servic p 
 {
@@ -1321,6 +1287,7 @@ margin-top:10px;
     margin-right: 130px;
     margin-top: 8px;
     margin-bottom: 5px;
+	width:30px;
 }
 
 .con-links
@@ -1382,6 +1349,7 @@ background-color: #e03a3c;
     margin-right: 235px;
     margin-top: 8px;
     margin-bottom: 5px;
+	width:30px;
 }
 
 .con-join 
@@ -1395,11 +1363,12 @@ background-color: #e03a3c;
 
 .join-line
 {
-	background-color: #e03a3c;
-    border-bottom: 2px solid #e03a3c;
-    margin-right: 320px;
+	background-color: hsl(359deg 73% 55%);
+    border-bottom: 2px solid hsl(359deg 73% 55%);
+    margin-right: 235px;
     margin-top: 8px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    width: 30px;
 }
 	
 .con-join p 
