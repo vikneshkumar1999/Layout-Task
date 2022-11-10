@@ -128,10 +128,15 @@ background-color: hsl(359deg 73% 55%);
 	
 }
 
-.d-xs-none
+.d-xs-block
+	{
+		display:block !important;
+	}
+	.d-xs-none
 	{
 		display:none !important;
 	}
+	
 .port-line
 {
 background-color: hsl(359deg 73% 55%);
