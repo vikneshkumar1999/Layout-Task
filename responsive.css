@@ -245,7 +245,9 @@ background-color: hsl(359deg 73% 55%);
 	margin:0 auto;
 	padding:0 15px;
 }
-
+.d-block{
+	display:block !important; 	
+}
 
 .col-lg-1
 {
