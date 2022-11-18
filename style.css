@@ -48,8 +48,9 @@
 .hender-menu
 {
 	background-color:#fff;
-	padding-bottom:20px;
-	padding-top:20px;
+	position:fixed;
+	width:100%;
+	z-index:3;
 }
 
 .logo
@@ -1469,29 +1470,28 @@ background-color: #e03a3c;
 .logo-social 
 {
 	margin :30px -105px;
-	}
-       	
-	
-	
-	.logo-detail
-	{
-		
+}
+ 
+.logo-detail
+{	
 	font-family: 'Poppins', sans-serif;
+}
 	
-	}
-	
-	.logo-detail a {
-		color:black;
+.logo-detail a 
+{
+	color:black;
 	text-decoration:none;
-	}
+}
 	
-	.logo-detail a span {
-		color:#e03a3c;
-	}
+.logo-detail a span 
+{
+	color:#e03a3c;
+}
 	
-	.menu-bar .nav-bar{
+.menu-bar .nav-bar
+{
 		text-align:right;
-	}
+}
 	
 	
 .menu-bar .navbar > li

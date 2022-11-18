@@ -10,6 +10,20 @@
 	display:block !important;
 }
 
+.navbtns
+{
+	position:relative;
+	right:20px;
+}
+
+.icon
+{
+	position: absolute;
+    left: 325px;
+    font-size: 28px;
+	top:35px;
+}
+
 .about-client 
 {
 	margin-bottom:50px;
@@ -40,6 +54,23 @@ background-color: hsl(359deg 73% 55%);
 .fre-service
 {
 	padding:0px 25px 0px 15px;
+}
+
+.about-details p
+{
+	display:none;
+}
+
+.about-details i 
+{
+	font-size:25px;
+	padding-right:0px;
+}
+
+.about-details
+{
+	min-height:20px;
+	display:inline-block;
 }
 
 .col-1
@@ -160,7 +191,7 @@ background-color: hsl(359deg 73% 55%);
 	margin-bottom:50px;
 }
 
-.logo-social
+.logo
 {
 	margin:30px 0px;
 	text-align:center;
@@ -325,3 +356,78 @@ background-color: hsl(359deg 73% 55%);
 }
 
 
+@media (min-width:992);
+{
+	
+.col-sd-1
+{
+	width:8.33%;
+	padding:0 15px;
+}
+
+.col-sd-2
+{
+	width:16.66%;
+	padding:0 15px;
+}
+
+.col-sd-3
+{
+	width:25%;
+	padding:0 15px;
+}
+
+.col-sd-4
+{
+	width:33.33%;
+	padding:0 15px;
+}
+
+.col-sd-5
+{
+	width:41.66%;
+	padding:0 15px;
+}
+
+.col-sd-6
+{
+	width:50%;
+	padding:0 15px;
+}
+
+.col-sd-7
+{
+	width:58.33%;
+	padding:0 15px;
+}
+
+.col-sd-8
+{
+	width:66.66%;
+	padding:0 15px;
+}
+
+.col-sd-9
+{
+	width:75%;
+	padding:0 15px;
+}
+
+.col-sd-10
+{
+	width:83.33%;
+	padding:0 15px;
+}
+
+.col-sd-11
+{
+	width:91.66%;
+	padding:0 15px;
+}
+
+.col-sd-12
+{
+	width:100%;
+	padding:0 15px;
+}
+}
